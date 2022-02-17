@@ -1,0 +1,27 @@
+{
+  "name": "knex-project",
+  "version": "1.0.0",
+  "description": "Simple database project with knex.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bash -c 'env $(cat .env) nodemon server.js'"
+  },
+  "author": "Vova-code",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.3.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^1.0.3",
+    "nodemon": "^2.0.15",
+    "objection": "^3.0.1",
+    "pg": "^8.7.3",
+    "prettier": "^2.5.1",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
